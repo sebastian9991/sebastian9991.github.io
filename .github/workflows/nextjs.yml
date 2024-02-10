@@ -64,6 +64,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -95,4 +98,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
