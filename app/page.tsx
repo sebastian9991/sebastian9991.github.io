@@ -37,7 +37,7 @@ export default function Home() {
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
           Hello! My name is Sebastian, here stands my portfolio, a showcase of
-          project on topics including; Full-stack engineering, AI, ML...
+          projects on topics including; Full-stack engineering, AI, ML...
         </h2>
       </div>
     </div>
