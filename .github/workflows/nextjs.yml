@@ -87,6 +87,10 @@ jobs:
         with:
           path: ./out
 
+      - name: Print PATH variable
+        run: echo $PATH
+
+
   # Deployment job
   deploy:
     environment:
